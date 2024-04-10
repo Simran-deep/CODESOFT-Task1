@@ -1,10 +1,12 @@
+//Number game
 import java.util.Random; //random number library
 import java.util.Scanner; //input library
 public class Task1 {
     public static int playGame(Scanner scanner) {
         Random random = new Random();
         int attempts = 0; 
-//1.1 task generate Random number        
+//1.1 task generate Random number   
+        System.out.println("NUMBER GAME");     
         int a = random.nextInt(100) + 1; //generate number range between 0-100
         int b = random.nextInt(100) + 1;
         int c = random.nextInt(100) + 1;
